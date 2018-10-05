@@ -15,7 +15,9 @@ Initialize the library with the specified frequency.
 ```arduino
 LoRa.begin(frequency);
 ```
- * `frequency` - frequency in Hz (`433E6`, `866E6`, `915E6`)
+ * `frequency` - frequency in Hz (`433E6`, `868E6`, `915E6`)
+
+Frequency can be also a specific channel (e.g., 868100000).
 
 Returns `1` on success, `0` on failure.
 
